@@ -1,0 +1,134 @@
+
+/* mibile first */
+@media only screen and (max-width:420) {
+   nav ul li a {
+      display: none;
+   } 
+}
+nav {
+    display: flex;
+    /* flex-direction: row; */
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    /* height: 100px; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+
+}
+
+section img {
+    /* display: flex; */
+
+}
+
+.graph {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+}
+
+/* .wite-up {
+    display: flex;
+    
+} */
+
+nav button {
+    display: flex;
+    background-color: #256ce1;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 22px;
+    cursor: pointer;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    padding: 45px;
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 3 5px;
+    margin-right: 15px;
+    display: flex;
+}
+
+section div {
+    height: auto;
+    width: auto;
+}
+
+.wallet {
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+}
+
+section div h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+section div p {
+    font-size: 22px;
+    line-height: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-right: 70px;
+}
+
+button {
+    background-color: #083275;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px){
+    body{
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 1024) {
+   body {
+    background-color: black;
+   } 
+
+   nav {
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 110px;
+   }
+
+   nav ul {
+    display: flex;
+    list-style: none;
+   }
+   nav ul li a {
+    display: flex;
+    flex-direction: row;
+   }
+}
